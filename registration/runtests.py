@@ -25,6 +25,7 @@ SETTINGS_DICT = {
         'django.contrib.contenttypes',
         'django.contrib.sessions',
         'django.contrib.sites',
+        'django.contrib.messages',
         # This is only needed by the model-based activation workflow.
         'registration',
     ),
@@ -41,6 +42,7 @@ SETTINGS_DICT = {
         'django.middleware.csrf.CsrfViewMiddleware',
         'django.contrib.sessions.middleware.SessionMiddleware',
         'django.contrib.auth.middleware.AuthenticationMiddleware',
+        'django.contrib.messages.middleware.MessageMiddleware',
     ),
     'SITE_ID': 1,
     'TEMPLATES': [{
